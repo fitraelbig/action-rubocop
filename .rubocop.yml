@@ -1,9 +1,10 @@
 RSpec/Rails/AvoidSetupHook:
   Enabled: false
-  
+
 AllCops:
   Exclude:
     - 'test/rdjson_formatter/**/*'
     - 'vendor/**/*'
+     - vendor/bundle/**/*
 
 
