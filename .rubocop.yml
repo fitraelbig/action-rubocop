@@ -2,3 +2,6 @@ AllCops:
   Exclude:
     - 'test/rdjson_formatter/**/*'
     - 'vendor/**/*'
+
+RSpec/Rails/AvoidSetupHook:
+  Enabled: false
